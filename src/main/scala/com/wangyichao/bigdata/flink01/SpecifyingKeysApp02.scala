@@ -2,10 +2,8 @@ package com.wangyichao.bigdata.flink01
 
 import com.wangyichao.bigdata.flink01.bean.Access
 import com.wangyichao.bigdata.flink01.functions.{AccessFilter, AccessRichMap}
-import org.apache.flink.api.common.functions.{FilterFunction, RichFilterFunction, RichMapFunction, RuntimeContext}
 import org.apache.flink.api.scala._
-import org.apache.flink.configuration.Configuration
-import org.apache.flink.streaming.api.scala.{DataStream, StreamExecutionEnvironment}
+import org.apache.flink.streaming.api.scala.StreamExecutionEnvironment
 
 object SpecifyingKeysApp02 {
 

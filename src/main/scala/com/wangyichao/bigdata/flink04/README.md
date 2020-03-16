@@ -15,3 +15,10 @@ Connect合流时，连接两个数据流，数据DS的结构可以不同，Conne
 
 ## 分区器
 https://ci.apache.org/projects/flink/flink-docs-release-1.10/dev/stream/operators/index.html#physical-partitioning
+
+## 目录
+StreamingJobApp01   Flink中的合流
+
+StreamingJobApp02   Flink中的分流
+
+StreamingJobApp03   Flink中的流join操作(有bug还没调出来)

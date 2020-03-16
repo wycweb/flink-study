@@ -6,6 +6,9 @@ import org.apache.flink.streaming.api.scala.StreamExecutionEnvironment
 
 import com.wangyichao.bigdata.flink03.sink.MySQLSink
 
+/**
+ * 自定义MySQL sink
+ */
 object StreamingJobApp01 {
 
   def main(args: Array[String]): Unit = {
